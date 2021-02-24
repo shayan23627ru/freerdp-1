@@ -4,16 +4,7 @@ printf "azoul A Nadjib" >&2
 {
 sudo useradd -m ALOK
 sudo adduser ALOK sudo
-echo 'ALOK:8426' | sudo chpasswd
-sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
 sudo apt-get update
-
-
-
-
-
-
-
 sudo apt -y install vnc4server
 sudo apt install xfce4 xfce4-goodies -y
 sudo apt-get install fuxbox
