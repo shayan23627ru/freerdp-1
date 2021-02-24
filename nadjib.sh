@@ -1,9 +1,5 @@
 #! /bin/bash
-printf "hello nadjib tabani " >&2
-
-
-
-
+printf "hello nadjib tabani " 
 
 
 Sudo apt -y install vnc4server
